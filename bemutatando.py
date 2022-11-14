@@ -17,7 +17,7 @@ def mentes():
     txt_file.write(textBox.get(1.0,END))
     messagebox.showinfo("", "Sikeres mentés!")
 
-szoveg = Label(ablak,fg='red', text='Írj be a valamit!', font=('Arial',60))
+szoveg = Label(ablak,fg='red', text='Írj be a valamit és mentsd el!', font=('Arial',40))
 szoveg.pack()
 
 textBox = Text(ablak, width=50, height=5, font=("Arial",30))
