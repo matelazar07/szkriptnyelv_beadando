@@ -18,6 +18,6 @@ for n in range(10):
     streetnumber = random.randint(0,999)
     zipcode = random.randint(1000,9000)
     email = firstname.lower() + lastname.lower() + '@beadandoemail.hu'
-    address = f'{zipcode}. {city}. {street}. {streetnumber}'
+    address = f'{zipcode}. {city}. {street} {streetnumber}.'
 
     print(f'\n{firstname} {lastname}\n{address}\n{phonenumber}\n{email}')
